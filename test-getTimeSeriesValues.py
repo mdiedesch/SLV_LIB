@@ -1,6 +1,6 @@
 #pylint: disable=all
 import sys
-sys.path.insert(0, '../Config/')
+sys.path.insert(0, '../Config')
 import userConfig
 import requests
 from webob.multidict import MultiDict
@@ -9,7 +9,7 @@ import json
 
 SLV_URL = 'https://slv.poc02.ssn.ssnsgs.net:8443/reports'
 
-deviceID = '22471'
+#deviceID = '22471'
 
 payload = MultiDict([
   ('deviceId', '22471'),
