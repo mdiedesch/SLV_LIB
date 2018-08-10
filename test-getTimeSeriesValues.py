@@ -1,5 +1,6 @@
+#pylint: disable=all
 import sys
-sys.path.insert(0, '../Config')
+sys.path.insert(0, '../Config/')
 import userConfig
 import requests
 from webob.multidict import MultiDict
